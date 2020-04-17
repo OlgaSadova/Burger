@@ -13,9 +13,9 @@
         <h2 class="text-center"><i class="fas fa-hamburger mr-4"></i>Burgers Not Eaten<i
             class="fas fa-hamburger ml-4"></i></h2>
         {{#each burgers}}
-        {{#unless devoured}}
-        {{> burgers/burger-block devoured=true}}
-        {{/unless}}
+            {{#unless devoured}}
+                {{> burgers/burger-block devoured=true}}
+            {{/unless}}
         {{/each}}
       </ul>
     </div>
@@ -24,11 +24,11 @@
       <ul class="list-group">
         <h2 class="text-center"><i class="fas fa-hamburger mr-4"></i>Devoured Burgers<i
             class="fas fa-hamburger ml-4"></i></h2>
-        {{#each burgers}}
-        {{#if devoured}}
-        {{> burgers/burger-block devoured=false}}
-        {{/if}}
-        {{/each}}
+             {{#each burgers}}
+                {{#if devoured}}
+                    {{> burgers/burger-block devoured=false}}
+                {{/if}}
+            {{/each}}
       </ul>
     </div>
 
