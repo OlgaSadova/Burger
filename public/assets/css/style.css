@@ -1,50 +1,38 @@
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
+body {
+    font-family: "Annie Use Your Telescope", cursive;
+    font-size: 20px;
+    font-weight: 600;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.label {
-    font-weight: bold;
+i {
+    color: rgba(0, 0, 0, 0.582);
 }
 
-.create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
+.list-group-item {
+    background-color: #c2c2c230;
+    font-size: 1.2em;
 }
 
-.form-group {
-    margin-bottom: 5px;
-}
-
-#body {
-    background-color: aqua;
-}
-
-h1 {
-    text-align: center;
-}
-
-.block-left {
-    width: 50%;
-    height: 800px;
-    overflow: auto;
-    float: left;
-}
-
-.block-right {
-    width: 50%;
-    height: 800px;
-    overflow: auto;
+.change-devoured,
+.delete-burger {
+    font-size: 0.8em;
+    background-color: rgba(95, 158, 160, 0.509);
+    border: 1px solid black;
 }
 
 .create-form {
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    background-color: #c2c2c230;
+    font-size: 1.6rem;
 }
 
-h2 {
-    text-align: center;
+#burg {
+    opacity: 0.5;
+}
+
+#addaburger {
+    background-color: rgba(95, 158, 160, 0.509);
+    border: 1px solid black;
+    border-radius: 0;
 }

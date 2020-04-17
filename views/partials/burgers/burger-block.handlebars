@@ -1,0 +1,13 @@
+<li class="list-group-item">
+	{{name}}
+
+	{{#if devoured}}
+	<button class="ml-3 float-right change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+		Eat Me!
+	</button>
+	{{/if}}
+	<button class="float-right delete-burger" data-id="{{id}}">
+		Remove
+	</button>
+
+</li>
